@@ -1,0 +1,125 @@
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    background-color: #D6CC99;
+    color: #001524;
+
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 38px;
+    letter-spacing: 15px;
+    color: #445D48;
+    background-color: #FDE5D4;
+    max-width: 80%;
+    text-align: right;
+}
+
+h1 {
+font-family: 'Shadows into light', sans-serif;
+font-size: 100px;
+color: #D6CC99;
+letter-spacing: 50px;
+word-spacing: 10px;
+text-align: center;
+margin-left: -15%;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-style: italic;
+    color: #c0d0c3;
+    text-align: center;
+    margin-top: -70px;
+    margin-bottom: -15px;
+    max-width: 80%;
+    position: relative;
+    }
+
+body{
+    margin-left: 20%;
+}
+
+fieldset{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #D6CC99;
+    max-width: 77.5%;
+}
+
+label{
+    color: #001524;
+    font-size: 18px;
+}
+
+h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    letter-spacing: 5px;
+    color: #445D48;
+    text-align: right;
+    margin-top: -10%;
+    background-color: #D6CC99;
+    
+}
+.servicios{
+    max-width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.items{
+    color: #001524;
+    background-color: beige;
+    margin: 1%;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 2%;
+    flex-direction: row;
+    grid-template-columns: 30% auto 30%;
+    justify-content: space-evenly;
+    width: 33%;
+    
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: #FDE5D4;
+    justify-content: space-evenly;
+    max-width: 80%;
+
+}
+
+nav a{
+    color: #445D48;
+    padding: 1% 5%;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #FDE5D4;
+    justify-content: space-evenly;
+    max-width: 80%;
+}
+
+@media screen and (max-width:600px) {
+    nav, .servicios, .items {
+        flex-direction: column;
+        align-items:center;
+    }
+    .items {
+        flex-direction: column;
+        align-items:center;
+        padding-bottom: 10%;
+        width:90%;
+    }
+}
+
+
+  
