@@ -155,6 +155,63 @@ h4 {
 
 }
 
+h5 {
+    font-family: 'Elsie Swash Caps', serif;
+    font-size: 100px;
+    color: #c55368;
+    word-spacing: 10px;
+    text-align: left;
+    padding-left: 0px;
+    margin-top: 40px;
+}
+h6 {
+    font-family: 'Elsie Swash Caps', serif;
+    font-size: 100px;
+    color: #9a031e;
+    word-spacing: 10px;
+    text-align: left;
+    padding-left: 100px;
+    margin-top: -200px;
+}
+#about-me {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    
+}
+
+.about-me-titles {
+    width: 100%;
+    margin-right: 20px; 
+}
+.about-me-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+}
+
+.about-me-text {
+    width: 80%;
+    text-align: justify;
+    margin-top: 260px;
+    margin-left: -1140px;
+    padding-bottom: -500px;
+    font-size: 20px;
+    font-family: 'Abril Fatface', serif;
+    color: #011627;
+    padding: 1%;
+    line-height: 200%;
+    background-color: #fbf7e9;
+    z-index: -1;
+}
+
+.about-me-image img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    }
+
+
 .servicios {
     display: flex;
     justify-content: space-evenly;
